@@ -1,0 +1,38 @@
+body{
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 16px;
+  line-height: 1.6;
+
+  max-width: 700px;
+  margin: 80px auto;
+
+  color: black;
+  background: white;
+}
+
+h1{
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+p{
+  margin-bottom: 20px;
+}
+
+ol{
+  padding-left: 20px;
+}
+
+li{
+  margin-bottom: 6px;
+}
+
+a{
+  color: black;
+  text-decoration: underline;
+}
+
+a:hover{
+  text-decoration: none;
+}
