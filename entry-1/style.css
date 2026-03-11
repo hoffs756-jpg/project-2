@@ -9,14 +9,13 @@ body{
 
   color: black;
 
-  /* ADD YOUR GIF FILE NAME HERE */
   background-image: url("bluegif.gif");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-/* white highlight around text */
+
 .highlight{
   background: white;
   padding: 6px 10px;
