@@ -1,20 +1,19 @@
-body{
+html,
+body {
   font-family: Georgia, "Times New Roman", serif;
   font-size: 16px;
-  line-height: 1.6;
-
-  max-width: 700px;
-  margin: 80px auto;
   text-align: center;
-
   color: black;
-
-  background-image: url("color.gif");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
+
+
+body {
+  background-color: #FC354C;
+  background-image: -webkit-linear-gradient(#FC354C, #6E48AA);
+  background-image: -webkit-linear-gradient(#FC354C, #6E48AA);
+  background-image: linear-gradient(#FC354C, #6E48AA);
+}
 
 .highlight{
   background: white;
