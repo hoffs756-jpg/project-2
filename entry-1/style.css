@@ -1,56 +1,85 @@
-html,
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  min-height: 100vh;
+}
+
 body {
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 16px;
-  text-align: center;
-  color: black;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #000;
+  background: linear-gradient(#FC354C, #6E48AA);
+  display: flex;
+  justify-content: center;
+  padding: 80px 20px;
+  transition: background 0.05s ease;
 }
 
-
-
-body {
-  background-color: #FC354C;
-  background-image: -webkit-linear-gradient(#FC354C, #6E48AA);
-  background-image: -webkit-linear-gradient(#FC354C, #6E48AA);
-  background-image: linear-gradient(#FC354C, #6E48AA);
+.container {
+  width: 100%;
+  max-width: 420px;
+  text-align: left;
 }
 
-.highlight{
-  background: white;
-  padding: 6px 10px;
-  display: inline-block;
-}
-
-h1{
-  font-size: 20px;
+.title {
+  font-size: 15px;
   font-weight: normal;
-  margin-bottom: 30px;
+  font-style: italic;
+  margin-bottom: 6px;
+  color: #000;
+}
+
+.divider {
+  display: block;
   text-align: center;
+  font-size: 13px;
+  color: #333;
+  margin: 18px 0;
+  letter-spacing: 0.05em;
+  width: 100%;
 }
 
-p{
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-ol{
-  padding-left: 0;
-  list-style-position: inside;
-}
-
-li{
+.section-label {
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #222;
   margin-bottom: 10px;
 }
 
-a{
-  text-decoration: none;
-  color: black;
-  padding: 4px 8px;
-  border: 1px solid black;
-  background: white;
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-a:hover{
-  background: black;
-  color: white;
+li {
+  margin-bottom: 4px;
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+li .num {
+  font-size: 12px;
+  color: #444;
+  min-width: 22px;
+  text-align: right;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  font-size: 15px;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s;
+}
+
+a:hover {
+  border-bottom: 1px solid #000;
 }
