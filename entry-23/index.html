@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Canvas</title>
+<style>
+body{
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+canvas{ border: 1px solid black; }
+a{
+  display: inline-block;
+  margin-top: 30px;
+  padding: 6px 12px;
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+}
+a:hover{ background: black; color: white; }
+</style>
+</head>
+<body>
+<h1>Canvas</h1>
+<canvas id="c" width="300" height="150"></canvas>
+<script>
+  var ctx = document.getElementById('c').getContext('2d');
+  ctx.fillStyle = '#FC354C';
+  ctx.fillRect(20, 20, 100, 80);
+  ctx.fillStyle = '#6E48AA';
+  ctx.beginPath();
+  ctx.arc(220, 75, 50, 0, Math.PI * 2);
+  ctx.fill();
+</script>
+<br>
+<a href="https://hoffs756-jpg.github.io/project-2/entry-1/">Back</a>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dialog Box</title>
+<style>
+body{
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+button{
+  padding: 6px 12px;
+  border: 1px solid black;
+  background: white;
+  cursor: pointer;
+}
+button:hover{ background: black; color: white; }
+a{
+  display: inline-block;
+  margin-top: 30px;
+  padding: 6px 12px;
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+}
+a:hover{ background: black; color: white; }
+dialog{ padding: 20px; border: 1px solid black; }
+</style>
+</head>
+<body>
+<h1>Dialog Box</h1>
+<button onclick="document.getElementById('d').showModal()">Open Dialog</button>
+<dialog id="d">
+  <p>This is a dialog box.</p>
+  <button onclick="document.getElementById('d').close()">Close</button>
+</dialog>
+<br>
+<a href="https://hoffs756-jpg.github.io/project-2/entry-1/">Back</a>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Image Map</title>
+<style>
+body{
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+a{
+  display: inline-block;
+  margin-top: 30px;
+  padding: 6px 12px;
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+}
+a:hover{ background: black; color: white; }
+</style>
+</head>
+<body>
+<h1>Image Map</h1>
+<p>Click different parts of the image.</p>
+<img src="https://picsum.photos/400/200" usemap="#map" alt="image map">
+<map name="map">
+  <area shape="rect" coords="0,0,200,200" href="#" alt="Left" onclick="alert('Left side!')">
+  <area shape="rect" coords="200,0,400,200" href="#" alt="Right" onclick="alert('Right side!')">
+</map>
+<br>
+<a href="https://hoffs756-jpg.github.io/project-2/entry-1/">Back</a>
+</body>
+</html>
