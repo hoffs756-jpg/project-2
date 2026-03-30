@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Text Input</title>
+<title>Slider</title>
 <style>
 body{
   font-family: Arial, sans-serif;
@@ -20,8 +20,9 @@ a:hover{ background: black; color: white; }
 </style>
 </head>
 <body>
-<h1>Text Input</h1>
-<input type="text" placeholder="type something...">
+<h1>Slider</h1>
+<input type="range" min="0" max="100" value="50" oninput="document.getElementById('val').textContent=this.value">
+<p id="val">50</p>
 <br>
 <a href="https://hoffs756-jpg.github.io/project-2/entry-1/">Back</a>
 </body>
