@@ -17,7 +17,6 @@ body {
   padding: 60px;
 }
 
-/* Corner labels */
 .label {
   position: fixed;
   font-size: 11px;
@@ -31,7 +30,6 @@ body {
 .bottom-left { bottom: 24px; left: 28px; }
 .bottom-right{ bottom: 24px; right: 28px; }
 
-/* Main grid */
 .grid {
   display: flex;
   flex-wrap: wrap;
@@ -42,7 +40,6 @@ body {
   padding: 40px 0;
 }
 
-/* Links — three size scales */
 .item {
   text-decoration: none;
   color: #000;
@@ -56,7 +53,6 @@ body {
   border-bottom: 1px solid #000;
 }
 
-/* s1 = normal, s2 = medium, s3 = large */
 .s1 { font-size: 16px; }
 .s2 { font-size: 26px; font-style: italic; }
 .s3 { font-size: 42px; }
